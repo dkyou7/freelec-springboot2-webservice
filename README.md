@@ -21,7 +21,7 @@ echo "> Build 파일 복사"
 cp $REPOSITORY/$PJ_NAME/build/libs/*.jar $REPOSITORY/
 
 echo "> 현재 구동중인 애플리케이션 pid 확인"
-CURRENT_PID=$(pgrep -f ${PJ_NAME}*.jar)
+CURRENT_PID=$(pgrep -f freelec-springboot2-webservice*.jar)
 
 echo "> 현재 구동중인 애플리케이션 pid : $CURRENT_PID"
 
