@@ -13,12 +13,11 @@ cache:
   directories:
     - '$HOME/.m2/repository'
     - '$HOME/.gradle'
+script: "./gradlew clean build"
 
 # 빌드 전에 접근 권한 주기
 before_install:
   - chomod +x gradlew
-
-script: "./gradlew clean build"
 
 
 # CI 실행 완료 시 메일로 알람
