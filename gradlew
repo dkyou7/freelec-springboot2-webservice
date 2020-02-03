@@ -168,7 +168,5 @@ eval set -- $DEFAULT_JVM_OPTS $JAVA_OPTS $GRADLE_OPTS "\"-Dorg.gradle.appname=$A
 if [ "$(uname)" = "Darwin" ] && [ "$HOME" = "$PWD" ]; then
   cd "$(dirname "$0")"
 fi
-# 빌드 전에 접근 권한 주기
-chomod +x gradlew
 
 exec "$JAVACMD" "$@"
