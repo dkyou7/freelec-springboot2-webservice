@@ -5,7 +5,7 @@ PROJECT_NAME=freelec-springboot2-webservice
 
 echo "> Build 파일 복사"
 
-cp /home/ec2-user/app/step2/zip/*.jar /home/ec2-user/app/step2/
+cp -pr /home/ec2-user/app/step2/zip/*.jar /home/ec2-user/app/step2/
 
 echo "> 현재 구동중인 애플리케이션 pid 확인"
 
