@@ -17,8 +17,3 @@ cache:
 
 script: "./gradlew clean build"
 
-#CI complet send mail
-notifications:
-  email:
-    recipients:
-      - dkyou7@naver.com
