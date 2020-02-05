@@ -21,6 +21,3 @@ notifications:
   email:
     recipients:
       - dkyou7@naver.com
-
-before_install:
-  - chomod +x gradlew
