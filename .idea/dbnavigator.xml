@@ -23,12 +23,7 @@
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
-    <loaded-nodes>
-      <connection connection-id="0bb056c8-9088-4f0f-99a8-9731d5bbde04">
-        <schema name="freelec_springboot2_webservice" object-types="view, column, index, procedure, dataset trigger, function, table, constraint" />
-        <schema name="mysql" object-types="view, function, table" />
-      </connection>
-    </loaded-nodes>
+    <loaded-nodes />
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="0bb056c8-9088-4f0f-99a8-9731d5bbde04">
